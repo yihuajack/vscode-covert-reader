@@ -1,0 +1,126 @@
+{
+    "name": "vscode-covert-reader",
+	"displayName": "Covert Reader",
+	"description": "Read text file in the status bar",
+	"version": "0.0.1",
+    "publisher": "Yihua Liu",
+    "author": "Yihua Liu",
+    "license": "MIT",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"homepage": "https://github.com/yihuajack/vscode-covert-reader/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yihuajack/vscode-covert-reader.git"
+    },
+	"bugs": {
+		"url": "https://github.com/yihuajack/vscode-covert-reader/issues"
+	},
+	"categories": [
+		"Other"
+	],
+	"icon": "images/covert-reader-logo-round.png",
+	"keywords": [
+		"txt",
+		"book",
+		"看书",
+		"摸鱼"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"configuration": {
+			"title": "Covert Reader",
+			"type": "object",
+			"properties": {
+				"covert-reader.currentLineNumber": {
+					"type": "number",
+					"default": 0,
+					"description": "The current line number of the text file (starting from 1)"
+				},
+				"covert-reader.filePath": {
+					"type": "string",
+					"default": "",
+					"description": "The absolute path to the text file"
+				},
+				"covert-reader.lineBreak": {
+					"type": "string",
+					"default": "\t",
+					"description": "The symbol used to replace line break (default: horizontal tab)"
+				},
+				"covert-reader.lineLength": {
+					"type": "number",
+					"default": 60,
+					"description": "The maximum number of characters in one line (depends on language)",
+					"minimum": 1
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "extension.getPreviousLine",
+				"title": "Get Previous Line"
+			},
+			{
+				"command": "extension.getNextLine",
+				"title": "Get Next Line"
+			},
+			{
+				"command": "extension.jumpLine",
+				"title": "Jump to Specified Line"
+			},
+			{
+				"command": "extension.hideLine",
+				"title": "Hide Line"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "covert-reader.getPreviousLine",
+				"key": "alt+,",
+				"mac": "option+,",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "covert-reader.getNextLine",
+				"key": "alt+.",
+				"mac": "option+.",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "covert-reader.jumpLine",
+				"key": "alt+/",
+				"mac": "option+/"
+			},
+			{
+				"command": "covert-reader.hideLine",
+				"key": "alt+d",
+				"mac": "option+d"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn run compile && yarn run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.52.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.15.0",
+		"@typescript-eslint/eslint-plugin": "^4.9.0",
+		"@typescript-eslint/parser": "^4.9.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.1.2",
+		"vscode-test": "^1.4.1"
+	}
+}
