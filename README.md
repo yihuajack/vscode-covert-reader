@@ -1,5 +1,9 @@
 # Covert Reader for Visual Studio Code
 
+[![Build Status](https://travis-ci.org/yihuajack/vscode-covert-reader.svg?branch=master)](https://travis-ci.org/shalldie/vscode-background)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=yihuajack/vscode-covert-reader)](https://dependabot.com)
+[![Build Status](https://yihuajack.visualstudio.com/vscode-covert-reader/_apis/build/status/yihuajack.vscode-covert-reader?branchName=master)](https://yihuajack.visualstudio.com/vscode-covert-reader/_build/latest?definitionId=1&branchName=master)
+
 ![covert-reader-logo](images/covert-reader-logo-flat.png)
 
 ## Features
