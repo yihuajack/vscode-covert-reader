@@ -2,7 +2,7 @@
 	"name": "vscode-covert-reader",
 	"displayName": "Covert Reader",
 	"description": "Read text file in the status bar",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "yihuajack",
 	"author": "Yihua Liu",
 	"license": "MIT",
