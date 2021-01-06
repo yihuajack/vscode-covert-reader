@@ -2,8 +2,10 @@
 
 All notable changes to the "vscode-covert-reader" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.0.2: January 6, 2020
 
-## [Unreleased]
+- Add information and release
 
-- Initial release
+## 0.0.1: January 6, 2020
+
+- Basic features
