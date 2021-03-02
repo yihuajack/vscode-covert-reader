@@ -1550,10 +1550,10 @@ v8-compile-cache@^2.0.3:
   resolved "https://registry.npm.taobao.org/v8-compile-cache/download/v8-compile-cache-2.2.0.tgz#9471efa3ef9128d2f7c6a7ca39c4dd6b5055b132"
   integrity sha1-lHHvo++RKNL3xqfKOcTda1BVsTI=
 
-vsce@^1.83.0:
-  version "1.83.0"
-  resolved "https://registry.npm.taobao.org/vsce/download/vsce-1.83.0.tgz#61774e5389a8654e307c65ec392cf61534f65bcb"
-  integrity sha1-YXdOU4moZU4wfGXsOSz2FTT2W8s=
+vsce@^1.85.1:
+  version "1.85.1"
+  resolved "https://registry.yarnpkg.com/vsce/-/vsce-1.85.1.tgz#e232563a7aaf0b12af5c2e8ec5df5cac78799b55"
+  integrity sha512-IdfH8OCK+FgQGmihFoh6/17KBl4Ad3q4Sw3NFNI9T9KX6KdMR5az2/GO512cC9IqCjbgJl12CA7X84vYoc0ifg==
   dependencies:
     azure-devops-node-api "^7.2.0"
     chalk "^2.4.2"
