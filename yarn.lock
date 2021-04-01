@@ -93,10 +93,10 @@
   resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-12.19.11.tgz?cache=0&sync_timestamp=1609348239556&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-12.19.11.tgz#9220ab4b20d91169eb78f456dbfcbabee89dfb50"
   integrity sha1-kiCrSyDZEWnrePRW2/y6vuid+1A=
 
-"@types/vscode@^1.52.0":
-  version "1.52.0"
-  resolved "https://registry.npm.taobao.org/@types/vscode/download/@types/vscode-1.52.0.tgz#61917968dd403932127fc4004a21fd8d69e4f61c"
-  integrity sha1-YZF5aN1AOTISf8QASiH9jWnk9hw=
+"@types/vscode@^1.55.0":
+  version "1.55.0"
+  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.55.0.tgz#58cfbebbd32b3e374e07e7858b1fd0e92b1a1d2b"
+  integrity sha512-49hysH7jneTQoSC8TWbAi7nKK9Lc5osQNjmDHVosrcU8o3jecD9GrK0Qyul8q4aGPSXRfNGqIp9CBdb13akETg==
 
 "@typescript-eslint/eslint-plugin@^4.14.0":
   version "4.14.0"
