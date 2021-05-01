@@ -33,13 +33,7 @@ ext install vscode-covert-reader
 
 Alternatively, in the Extensions pane, search for `Covert Reader` extension and install it there.
 
-You can also install a VSIX package from our [Releases page](https://github.com/yihuajack/vscode-covert-reader/releases) by following the [Install from a VSIX](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix) instructions.  The easiest way is through the command line:
-
-```powershell
-code --install-extension PowerShell-<version>.vsix
-```
-
-> NOTE: If you are using VS Code Insiders, the command will be `code-insiders`.
+You can also install a VSIX package from our [Releases page](https://github.com/yihuajack/vscode-covert-reader/releases) by following the [Install from a VSIX](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix) instructions.
 
 ## Extension Settings
 
